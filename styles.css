@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: url('file:///C:/Users/Computer/Downloads/t03wioey7khb1.gif') center/cover no-repeat fixed;
+    /* 'fixed' ensures the background stays fixed regardless of scrolling */
+}
+
+#video-container {
+    text-align: center;
+}
+
+#video-player {
+    width: 80%;
+    max-width: 800px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 20px; /* Rounded corners for the player */
+}
+
+#controls {
+    margin-top: 10px;
+}
+
+button {
+    margin: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 10px; /* Rounded corners for the buttons */
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #333; /* Darker shade on hover for a modern look */
+}
